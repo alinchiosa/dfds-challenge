@@ -4,7 +4,10 @@ import React, { HTMLAttributes } from "react";
 type ScreenContainerProps = HTMLAttributes<HTMLDivElement>;
 
 const ScreenContainer: React.FC<ScreenContainerProps> = (props) => {
-  const Container = styled.div`
+  return <Container {...props} />;
+};
+
+const Container = styled.div`
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
@@ -21,8 +24,5 @@ const ScreenContainer: React.FC<ScreenContainerProps> = (props) => {
       max-width: 600px;
     }
   `;
-
-  return <Container {...props} />;
-};
 
 export default ScreenContainer;

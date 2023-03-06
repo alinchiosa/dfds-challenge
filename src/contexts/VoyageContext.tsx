@@ -2,9 +2,9 @@ import React, { createContext, useState } from "react";
 
 interface VoyageFormData {
   departurePlace: string;
-  departureTime: string;
+  departureTime: string | Date;
   arrivalPlace: string;
-  arrivalTime: string;
+  arrivalTime: string | Date;
 }
 
 interface VoyageFormContextData {
@@ -19,7 +19,9 @@ export const VoyageFormContext = createContext<VoyageFormContextData>({
     arrivalPlace: "",
     arrivalTime: "",
   },
-  setData: () => {},
+  setData: () => {
+    // setter
+  },
 });
 
 export function FormContextProvider({ children }: { children: React.ReactNode }) {

@@ -3,7 +3,8 @@ const Colors = {
   LightBlue: "#83a2c0",
   White: "#ffffff",
   LowOpacityBlack: "rgba(0, 0, 0, 0.2)",
-  InactiveGrey: "#ced4da;",
+  InactiveGrey: "#ced4da",
+  GreyText: "#666765",
   Red: "#FF0000",
 };
 

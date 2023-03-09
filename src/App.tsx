@@ -1,8 +1,8 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import ScreenContainer from "./components/ScreenContainer";
-import VoyageForm from "./components/VoyageForm";
 import { FormContextProvider } from "./contexts/VoyageContext";
+import VoyagePage from "./pages/VoyagePage";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <NavBar />
       <ScreenContainer>
         <FormContextProvider>
-          <VoyageForm />
+          <VoyagePage />
         </FormContextProvider>
       </ScreenContainer>
     </div>

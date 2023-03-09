@@ -4,7 +4,7 @@
 
 ## Descrption
 
-This app is using [React](https://reactjs.org/) with [TypeScript](https://www.typescriptlang.org),[Ant Design](https://ant.design/) components, [ESLint](https://eslint.org) & [Prettier](https://prettier.io) for linting,[React Hook Form](https://react-hook-form.com/) to handle form validation and [Emotion Styled](https://emotion.sh/docs/styled) for styling.
+This app is using [React](https://reactjs.org/) with [TypeScript](https://www.typescriptlang.org), [ESLint](https://eslint.org) & [Prettier](https://prettier.io) for linting,[React Hook Form](https://react-hook-form.com/) to handle form validation and [Emotion Styled](https://emotion.sh/docs/styled) for styling.
 
 ## Pre-requisites
 
